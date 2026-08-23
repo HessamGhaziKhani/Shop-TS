@@ -286,28 +286,18 @@ function Dashboard() {
         >
 
 
-          <button
 
-            className="
-            w-full
+          <Button
 
-            bg-blue-600
+            variant="primary"
 
-            text-white
+            onClick={signOutHandler}
 
-            py-3
-
-            rounded-xl
-
-            hover:bg-blue-700
-
-            transition
-            "
           >
 
             ویرایش پروفایل
 
-          </button>
+          </Button>
 
 
 
