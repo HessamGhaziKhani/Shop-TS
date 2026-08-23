@@ -14,14 +14,14 @@ export const useAuthContext = ()=>{
 export function AuthContextProvider({children}:IAuthContextProvider){
 
     const [accessToken, setAccessToken] = useLocalStorage("accessToken","");
-    const [refreshToken, setRefreshToken] = useLocalStorage("refreshToken","");
+    // const [refreshToken, setRefreshToken] = useLocalStorage("refreshToken","");
     const [userData, setUserData] = useLocalStorage<IUserData | null>("refreshToken",null);
     const isLogin = Boolean(accessToken);
     const signInHandler = async(usename:string,password:string , expiresInMins:number)=>{ 
 
     const data = await login(usename,password,expiresInMins)
             setAccessToken(data.accessToken)
-            setRefreshToken(data.refreshToken)
+            // setRefreshToken(data.refreshToken)
             setUserData({
                 id: data.id,
                 username: data.username,
@@ -37,7 +37,7 @@ export function AuthContextProvider({children}:IAuthContextProvider){
     }
     const signOutHandler = ()=>{
         setAccessToken("")
-        setRefreshToken("")
+        // setRefreshToken("")
     }
 
     

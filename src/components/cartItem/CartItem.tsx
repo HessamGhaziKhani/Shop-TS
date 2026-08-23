@@ -1,5 +1,5 @@
 import QuantityControl from "../quantityControl/QuantityControl";
-import type { IProduct } from "../../types/server";
+import type { IProduct } from '../../services/product/types';
 import { Link } from "react-router-dom";
 
 interface ICartItem extends IProduct {
