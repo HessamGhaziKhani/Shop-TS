@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "لپ تاپ حرفه‌ای",
+      "description": "مناسب برای کار، طراحی و استفاده روزمره",
+      "price": 50000000,
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600"
+    },
+    {
+      "id": 2,
+      "title": "هدفون بی‌سیم",
+      "description": "صدای باکیفیت با طراحی مدرن",
+      "price": 3500000,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600"
+    },
+    {
+      "id": 3,
+      "title": "ساعت هوشمند",
+      "description": "کنترل سلامتی و اعلان‌های روزانه",
+      "price": 7000000,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600"
+    },
+    {
+      "id": 4,
+      "title": "دوربین حرفه‌ای",
+      "description": "ثبت لحظات با کیفیت بالا",
+      "price": 45000000,
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600"
+    },
+    {
+      "id": 5,
+      "title": "کیبورد مکانیکی",
+      "description": "مناسب برای برنامه‌نویسی و گیمینگ",
+      "price": 6000000,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600"
+    },
+    {
+      "id": 6,
+      "title": "موس گیمینگ",
+      "description": "دقت بالا با طراحی ارگونومیک",
+      "price": 2500000,
+      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=600"
+    },
+    {
+      "id": 7,
+      "title": "مانیتور حرفه‌ای",
+      "description": "نمایشگر با کیفیت برای کار و طراحی",
+      "price": 15000000,
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600"
+    }
+  ]
+}
