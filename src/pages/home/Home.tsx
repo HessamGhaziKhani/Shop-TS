@@ -1,31 +1,24 @@
-import Container from "../../components/container/Container"
-import ProductCardSkeleton from "../../components/skeleton/ProductCardSkeleton"
+import Button from "../../components/button/Button";
+import ArchitectureSection from "./sections/ArchitectureSection";
+import FeaturesSection from "./sections/FeaturesSection";
+import Footer from "./sections/Footer";
+import HeroSection from "./sections/HeroSection";
+import ProjectStatusSection from "./sections/ProjectStatusSection";
+import TechnicalHighlightsSection from "./sections/TechnicalHighlightsSection";
+import TechStackSection from "./sections/TechStackSection";
 
 function Home() {
   return (
-      <Container>
-      <div
-        className="
-    grid
-  grid-cols-1
-  xs:grid-cols-2
-  sm:grid-cols-2
-  md:grid-cols-3
-  lg:grid-cols-4
-  gap-4
-  sm:gap-5
-  lg:gap-6
-  items-stretch
-  my-9
-  "
-      >
-      <ProductCardSkeleton />
-      <ProductCardSkeleton />
-      <ProductCardSkeleton />
-      <ProductCardSkeleton />
-    </div>
-    </Container>
-  )
+    <main>
+      <HeroSection />
+      <FeaturesSection />
+      <TechnicalHighlightsSection />
+      <ArchitectureSection />
+      <TechStackSection />
+      <ProjectStatusSection />
+      <Footer />
+    </main>
+  );
 }
 
-export default Home
+export default Home;
