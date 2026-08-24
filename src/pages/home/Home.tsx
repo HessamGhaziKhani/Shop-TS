@@ -1,4 +1,3 @@
-import Button from "../../components/button/Button";
 import ArchitectureSection from "./sections/ArchitectureSection";
 import FeaturesSection from "./sections/FeaturesSection";
 import Footer from "./sections/Footer";
